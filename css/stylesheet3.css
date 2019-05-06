@@ -78,7 +78,7 @@ body{
      margin: auto;
      padding-top: 140px;
      display: flex;
-     background-color: rgba(0,0,0,0.9);
+     background-color: rgba(0,0,0,0.7);
    }
    .contact img{
      height: 480px;
@@ -92,8 +92,11 @@ body{
      display: flex;
      padding: 20px;
    }
+   .cont div h3{
+     color: white;
+   }
    .cont{
-     padding-top: 70px;
+     padding-top: 30px;
      padding-left: 50px;
    }
    .cont div img{
