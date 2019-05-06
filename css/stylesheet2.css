@@ -72,57 +72,35 @@ body{
    .dropdown-content{
      display: none;
    }
-   .banner{
-     height: 700px;
+   .events{
      width: 1366px;
-     margin: auto;
-     background-image: url(../images/banner.jpg);
-     background-attachment: fixed;
-     background-size: cover;
-   }
-   .banner img{
-     height: 180px;
-     float: right;
-     margin-top: 200px;
-     margin-right: 70px;
-   }
-   .icons{
-     height: 1250px;
-     width: 1366px;
-     margin: auto;
      background-color: black;
+     padding-top: 150px;
    }
-   .icone {
-     display: flex;
-     padding-left: 200px;
-     padding-right: 200px;
-     padding-top: 50px;
-
-   }
-   .icone h2{
+   .events h1{
      color: white;
-     font-size: 38px;
-     padding-top: 70px;
+     font-size: 75px;
+     text-align: center;
+     font-family: 'Gugi', cursive;
    }
-   .icone p{
-     color: white;
-     font-size: 14px;
+   .pic{
+     padding-left: 140px;
    }
-   .img1{
-     margin-top: 100px;
-     padding-left: 100px;
-     height: 250px;
+   .pics{
+     padding-left: 70px;
    }
-   .img2{
-     padding-right: 100px;
+   .pici{
+     padding-left: 50px;
    }
-   .img3{
-     padding-left: 100px;
-     margin-top: 130px;
-     height: 250px;
+   .art{
+     padding-left: 70px;
    }
-   .img4{
-     display: none;
+   .events div img{
+     height: 300px;
+     margin: 45px;
+   }
+   .events div{
+     padding-left: 20px;
    }
    .footer{
      width: 1366px;

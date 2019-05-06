@@ -72,57 +72,40 @@ body{
    .dropdown-content{
      display: none;
    }
-   .banner{
-     height: 700px;
+   .contact{
+     height: 500px;
      width: 1366px;
      margin: auto;
-     background-image: url(../images/banner.jpg);
-     background-attachment: fixed;
-     background-size: cover;
-   }
-   .banner img{
-     height: 180px;
-     float: right;
-     margin-top: 200px;
-     margin-right: 70px;
-   }
-   .icons{
-     height: 1250px;
-     width: 1366px;
-     margin: auto;
-     background-color: black;
-   }
-   .icone {
+     padding-top: 140px;
      display: flex;
-     padding-left: 200px;
-     padding-right: 200px;
+     background-color: rgba(0,0,0,0.9);
+   }
+   .contact img{
+     height: 480px;
+     width: 500px;
+     padding-left: 50px;
+   }
+   .logo{
      padding-top: 50px;
-
    }
-   .icone h2{
-     color: white;
-     font-size: 38px;
+   .cont div{
+     display: flex;
+     padding: 20px;
+   }
+   .cont{
      padding-top: 70px;
+     padding-left: 50px;
    }
-   .icone p{
+   .cont div img{
+     height: 30px;
+     width: 30px;
+     margin-right: 30px;
+   }
+   .cont p a{
      color: white;
-     font-size: 14px;
    }
-   .img1{
-     margin-top: 100px;
-     padding-left: 100px;
-     height: 250px;
-   }
-   .img2{
-     padding-right: 100px;
-   }
-   .img3{
-     padding-left: 100px;
-     margin-top: 130px;
-     height: 250px;
-   }
-   .img4{
-     display: none;
+   .cont p {
+     color: white;
    }
    .footer{
      width: 1366px;
