@@ -154,6 +154,30 @@ body{
    .our ul li a{
      color: #f86a1e;
    }
+   .our div{
+     display: flex;
+   }
+   .date p:first-child{
+     padding-right: 5px;
+   }
+   .date2 p:first-child{
+     padding-right: 8px;
+   }
+   .date3 p:first-child{
+     padding-right: 11px;
+   }
+   .date4 p:first-child{
+     padding-right: 21px;
+   }
+   .date5 p:first-child{
+     padding-right: 18px;
+   }
+   .date6 p:first-child{
+     padding-right: 14px;
+   }
+   .date1 p:first-child{
+     padding-right: 11px;
+   }
    .about {
      display: flex;
    }
@@ -205,6 +229,10 @@ body{
      font-size: 15px;
      width: 420px;
    }
+   #map {
+      height: 400px;
+      width: 100%;
+    }
    .copy{
      color: gray;
      padding-left: 450px;
