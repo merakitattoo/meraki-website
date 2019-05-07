@@ -146,7 +146,7 @@ body{
      margin-left: 110px;
    }
    .three{
-     margin-left: 200px;
+     margin-left: 160px;
    }
    .are h3{
      color: white;
@@ -198,7 +198,7 @@ body{
    .one{
      margin-left: 150px;
    }
-   .fa {
+   .watsp {
       padding: 20px;
       font-size: 30px;
       height: 15px;
@@ -208,8 +208,7 @@ body{
       margin: 5px 2px;
       border-radius: 50%;
     }
-
-    .fa:hover {
+    .watsp:hover {
       opacity: 0.7;
     }
 
