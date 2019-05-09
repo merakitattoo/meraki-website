@@ -76,15 +76,22 @@ body{
      height: 700px;
      width: 1366px;
      margin: auto;
-     background-image: url(../images/banner.jpg);
+     background-image: url(../images/banner1.jpg);
      background-attachment: fixed;
      background-size: cover;
    }
-   .banner img{
-     height: 180px;
-     float: right;
-     margin-top: 200px;
-     margin-right: 70px;
+   .ban h3{
+     color: white;
+   }
+   .ban p{
+     color: white;
+     margin-top: 50px;
+     line-height: 30px;
+   }
+   .ban{
+     width: 550px;
+     padding-top: 200px;
+     margin-left: 50px;
    }
    .icons{
      height: 1250px;
