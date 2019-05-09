@@ -1,44 +1,8 @@
-window.addEventListener('DOMContentLoaded',
-
-    function() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-            function(pos) {
-                var gmap = new google.maps.Map(
-                    document.querySelector('#gmap'),
-                    {
-                        zoom: 14,
-                        center: 
-                        new google.maps.LatLng(
-                            pos.coords.latitude, pos.coords.longitude
-                        ),
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    }
-                );
-            },
-            function(err) {
-                var msgs = [
-                    err.message,
-                    'Permission denied.',
-                    'Position unavailable.',
-                    'Timeout.'
-                ];
-                alert(msgs[err.code]);
-            },
-            {
-                timeout : 10000,
-                maximumAge : 0,
-                enableHighAccuracy: true
-            }
-
-        );
-
-    } else {
-
-        alert("Your browser doesn't support the Geolocation API.");
-
-    }
-
-}, false
-
-                       );
+function myFunction() {
+  var x = document.getElementById("Demo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
