@@ -197,10 +197,6 @@ body{
     background: #55ACEE;
     color: white;
     }
-   .footer article:last-child{
-     font-size: 15px;
-     width: 420px;
-   }
    .copy{
      color: gray;
      padding-left: 450px;
@@ -209,3 +205,4 @@ body{
    strong{
      color: white;
    }
+}

@@ -412,7 +412,7 @@ body{
   .header img{
     height: 80px;
     width: 80px;
-    padding: 5px 50px ;
+    padding: 5px 30px ;
   }
   .header nav ul {
     display: flex;
@@ -606,10 +606,6 @@ body{
   .fa-twitter {
   background: #55ACEE;
   color: white;
-  }
-  .footer article:last-child{
-   font-size: 15px;
-   width: 420px;
   }
   .copy{
    color: gray;
