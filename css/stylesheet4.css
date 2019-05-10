@@ -15,6 +15,9 @@ body{
   display: table;
   clear: both;
 }
+iframe{
+  width: 90%;
+}
 a,img {
   text-decoration: none;
 }

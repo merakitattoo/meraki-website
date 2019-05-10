@@ -21,6 +21,9 @@ body{
   ul{
     list-style: none;
   }
+  iframe{
+    width: 90%;
+  }
   body{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color: black;
