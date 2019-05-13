@@ -29,6 +29,7 @@ body{
     color: black;
     font-size:16px;
   }
+@media screen and (min-width:1200px) {
   .header{
     width: 1366px;
     height: 150px;
@@ -94,6 +95,12 @@ body{
      color: white;
      margin: 30px 50px 0px 50px;
      line-height: 40px;
+   }
+   .banner{
+     display: flex;
+   }
+   .bann{
+     margin-left: 50px;
    }
    .footer{
      width: 1366px;
@@ -204,4 +211,401 @@ body{
    strong{
      color: white;
    }
+}
+@media screen and (min-width:769px) and (max-width:1199px) {
+  .header{
+  width: 100%;
+  height: 150px;
+  margin: auto;
+  position: fixed;
+  background-color: rgba(225,225,225,0.2);
+  display: flex;
+  }
+  .header  img{
+  height: 140px;
+  width: 140px;
+  padding: 5px 50px ;
+  }
+  .header nav ul {
+  display: flex;
+  padding: 0px 50px 0 136px;
+  }
+  .header nav ul li a{
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  padding: 0px 6px 0 12px;
+  }
+  .header nav ul li a:hover{
+  color: white;
+  }
+  .header nav ul li {
+  align-content: center;
+  padding : 70px 0px 0 30px;
+  }
+  .dropdown {
+   margin: 15px 16px;
+   width: 30px;
+   height: 30px;
+   float: right;
+   background-color: #202020;
+   color: #fff;
+   border: none;
+   font-size: 30px;
+   transition: height 0.3s linear 0s;
+   display: none;
+  }
+  .dropdown-content{
+   display: none;
+  }
+  .ban{
+    width: 100%;
+    background-color: black;
+    padding-top: 150px;
+    margin: auto;
+  }
+  .banner img{
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    padding-top: 110px;
+  }
+  .ban h1{
+    color: white;
+    margin: 0px 0 0 50px;
+  }
+  .ban p{
+    color: white;
+    margin: 10px 50px 0px 50px;
+    line-height: 40px;
+  }
+  .banner{
+    display: flex;
+  }
+  .footer{
+   width: 100%;
+   height: 450px;
+   margin: auto;
+   display: flex;
+   background-color: black;
+  }
+  .are p a {
+   color: gray;
+  }
+  .are p a:hover{
+   color: white;
+  }
+  .are{
+   height: auto;
+   margin-left: 30px;
+   margin-top: 30px;
+  }
+  .two{
+   margin-left: 50px;
+   width: 180px;
+  }
+  .three{
+   margin-left: 50px;
+  }
+  .are h3{
+   color: white;
+  }
+  .our ul li a{
+   color: #f86a1e;
+  }
+  .our div{
+   display: flex;
+  }
+  .date p:first-child{
+   padding-right: 5px;
+  }
+  .date2 p:first-child{
+   padding-right: 8px;
+  }
+  .date3 p:first-child{
+   padding-right: 11px;
+  }
+  .date4 p:first-child{
+   padding-right: 21px;
+  }
+  .date5 p:first-child{
+   padding-right: 18px;
+  }
+  .date6 p:first-child{
+   padding-right: 14px;
+  }
+  .date1 p:first-child{
+   padding-right: 11px;
+  }
+  .about {
+   display: flex;
+  }
+  .about h3:last-child{
+   color: #f86a1e;
+   padding-left: 10px;
+  }
+  .are p{
+   padding-top: 20px;
+   color: white;
+  }
+  .are p a{
+   color: white;
+  }
+  .icon{
+   padding-left: 100px;
+  }
+  .one{
+   margin-left: 50px;
+  }
+  .watsp {
+    padding: 20px;
+    font-size: 30px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .watsp:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+  .footer article:last-child{
+   font-size: 15px;
+   width: 420px;
+  }
+  .copy{
+   color: gray;
+   padding-left: 350px;
+   background-color: black;
+  }
+  strong{
+   color: white;
+ }
+}
+@media screen and (max-width:768px) {
+  .header{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    position: fixed;
+    background-color: rgba(225,225,225,0.2);
+    display: flex;
+  }
+  .header img{
+    height: 80px;
+    width: 80px;
+    padding: 5px 30px ;
+  }
+  .header nav ul {
+    display: flex;
+    padding: 0px 50px 0 300px;
+    display: none;
+  }
+  .header nav ul li a{
+    height: 50px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    padding: 75px 12px 0 12px;
+  }
+  .header nav ul li:first-child{
+    background-color: #f86a1e;
+    align-content: center;
+    padding: 70px 10px 0 10px;
+  }
+  .header nav ul li {
+    align-content: center;
+    padding : 70px 30px 0 30px;
+  }
+  .header nav ul li :hover{
+    background-color: #f86a1e;
+    align-content: center;
+    margin: 70px 0px 0 0px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    margin: 30px 30px 0 0;
+  }
+  .dropbtn {
+    width: 30px;
+    height: 30px;
+    float: right;
+    background: black;
+    border-color: transparent;
+    color: white;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+    right: 0;
+    display: none;
+    margin-top: 30px;
+  }
+  .dropdown-content ul li {
+    color: white;
+    border: 0.1px solid rgba(255, 225, 225, .2);
+    padding: 12px 16px;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: black;
+  }
+  .dropdown-content li a{
+    color: white;
+  }
+
+  .dropdown-content li:hover {background-color: gray;}
+
+  .dropdown:hover .dropbtn {background-color:gray;}
+
+  .ban{
+    width: 100%;
+    background-color: black;
+    padding-top: 150px;
+    margin: auto;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .ban h1{
+    color: white;
+    margin: 0px 0 0 30px;
+  }
+  .ban p{
+    color: white;
+    margin: 10px 30px 0px 30px;
+    line-height: 40px;
+  }
+  .banner{
+    width: 100%;
+  }
+  .footer{
+   width: 100%;
+   margin: auto;
+   background-color: black;
+  }
+  .are p a {
+   color: gray;
+  }
+  .are p a:hover{
+   color: white;
+  }
+  .are{
+   height: auto;
+   margin-left: 30px;
+   padding-top: 30px;
+  }
+  .two{
+   margin-left: 30px;
+   width: 180px;
+  }
+  .three{
+   margin-left: 30px;
+  }
+  .are h3{
+   color: white;
+  }
+  .our ul li a{
+   color: #f86a1e;
+  }
+  .our div{
+   display: flex;
+  }
+  .date p:first-child{
+   padding-right: 5px;
+  }
+  .date2 p:first-child{
+   padding-right: 8px;
+  }
+  .date3 p:first-child{
+   padding-right: 11px;
+  }
+  .date4 p:first-child{
+   padding-right: 21px;
+  }
+  .date5 p:first-child{
+   padding-right: 18px;
+  }
+  .date6 p:first-child{
+   padding-right: 14px;
+  }
+  .date1 p:first-child{
+   padding-right: 11px;
+  }
+  .about {
+   display: flex;
+  }
+  .about h3:last-child{
+   color: #f86a1e;
+   padding-left: 10px;
+  }
+  .are p{
+   padding-top: 20px;
+   color: white;
+  }
+  .are p a{
+   color: white;
+  }
+  .icon{
+   padding-left: 30px;
+  }
+  .one{
+   margin-left: 30px;
+  }
+  .watsp {
+    padding: 20px;
+    font-size: 30px;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .watsp:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  }
+  .copy{
+   color: gray;
+   font-size: 12px;
+   padding-left: 50px;
+   background-color: black;
+  }
+  strong{
+   color: white;
+  }
 }
