@@ -514,12 +514,9 @@ body{
     background-color: rgba(0,0,0,0.7);
   }
   .contact img{
-    height: 480px;
-    width: 500px;
+    width: 100%;
   }
-  .logo{
-    padding-top: 50px;
-  }
+
   .cont div{
     display: flex;
     padding: 20px;
