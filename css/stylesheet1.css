@@ -77,9 +77,8 @@ body{
    }
    .ban{
      width: 1366px;
-     background-color: rgba(0,0,0,0.7);
+     background-color: black;
      padding-top: 150px;
-     display: flex;
      margin: auto;
    }
    .ban img{
@@ -87,13 +86,13 @@ body{
      margin-left: 100px;
      padding-top: 30px;
    }
-   .ban h3{
+   .ban h1{
      color: white;
-     margin: 50px;
+     margin: 50px 0 0 50px;
    }
    .ban p{
      color: white;
-     margin: 50px;
+     margin: 30px 50px 0px 50px;
      line-height: 40px;
    }
    .footer{

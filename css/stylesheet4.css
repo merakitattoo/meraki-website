@@ -567,22 +567,21 @@ body{
     margin: 30px 0 0 0;
   }
   .oneque {
-    height: 30px;
+    height: 40px;
     background: black;
     border-color: gray;
     color: white;
     cursor: pointer;
-    margin-left: 35px;
   }
   .down{
     margin-right: 30px;
   }
-  .dropdown-content {
+  .down {
+    width: 100%;
     position: absolute;
     overflow: auto;
     z-index: 1;
     display: none;
-    padding-left: 30px;
   }
   .dropdown-content ul li {
     color: white;
