@@ -519,19 +519,18 @@ body{
 
   .cont div{
     display: flex;
-    padding: 20px;
+    padding-top: 20px;
   }
   .cont div h3{
     color: white;
   }
   .cont{
     padding-top: 30px;
-    padding-left: 30px;
   }
   .cont div img{
     height: 30px;
     width: 30px;
-    margin-right: 30px;
+    margin-right: 10px;
   }
   .cont p a{
     color: white;

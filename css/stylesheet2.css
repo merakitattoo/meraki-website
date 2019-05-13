@@ -488,7 +488,7 @@ body{
   }
   .events h1{
     color: white;
-    font-size: 75px;
+    font-size: 35px;
     text-align: center;
     font-family: 'Gugi', cursive;
   }
@@ -497,7 +497,7 @@ body{
   }
   .events div img{
     width: 88%;
-    margin: 20px;
+    margin: 5px;
   }
   .events div{
     padding-left: 20px;
