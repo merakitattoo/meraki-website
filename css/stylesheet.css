@@ -86,11 +86,12 @@ iframe{
   }
   .ban h3{
    color: white;
+   font-size: 38px;
   }
   .ban p{
    color: white;
-   margin-top: 50px;
-   line-height: 30px;
+   font-size: 14px;
+   margin-top: 10px;
   }
   .ban{
    width: 550px;
@@ -108,12 +109,13 @@ iframe{
    padding-left: 200px;
    padding-right: 200px;
    padding-top: 50px;
-
+   font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
   .icone h2{
    color: white;
    font-size: 38px;
    padding-top: 70px;
+
   }
   .icone p{
    color: white;

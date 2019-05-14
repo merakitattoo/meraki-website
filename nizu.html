@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+      $('#bar').click(function () {
+      $('#foo').slideToggle('slow');
+  });
+  $('#bar1').click(function () {
+      $('#foo1').slideToggle('slow');
+  });
+  </script>
+  <style media="screen">
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="tooltip"><button>Q: DOES GETTING A TATTOO HURT?</button>
+        <span class="tooltiptext">A: When it comes right down to it, that’s what most people really want to know! Actually, getting a tattoo is not very painful nowadays because modern tattoo equipment is such that the needles go in and out of your skin very quickly. You’ll be completely able to carry on a normal conversation while getting your tattoo.</span>
+  </div>
+  </body>
+</html>
